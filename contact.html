@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Vegan Diner</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous"> 
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #202020;
+  font-family: Righteous, sans-serif;
+  Font-size: 20px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #D7816A;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #942121;
+}
+
+body {
+  background-color:#202020;
+}
+
+
+#logo {
+  width: 200px;
+  Float: left;
+}
+
+Footer {
+  Padding-top: 5%;
+  vertical-align: center;
+  text-align: center;
+  color: #D7816A;
+  font-family: Tahoma, sans-serif;
+  line-height: .2;
+  Font-size: 12px;
+}
+
+Form {
+  font-family: Righteous, sans-serif;
+  Font-size: 20px;
+  Text-align: center;
+  Color: #77966D;
+  Width: 40%;
+  Margin-left:30%;
+  Padding-top: 2%;
+  Padding-bottom: 2%;
+}
+
+.heading{
+  Color: #77966D;
+  font-family: Righteous, sans-serif;
+  Text-align: center;
+  Padding-top: 5%;
+}
+
+h2 {
+  Font-size: 45px;
+  text-shadow: 4px 4px #F6F7EB;
+}
+
+P {
+   Font-size: 25px;
+}
+
+.button {
+  font-family: Righteous, sans-serif;
+  background-color: #F6F7EB;
+  border: 2px solid #4CAF50;
+  color: #4CAF50;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  color: #F6F7EB;
+}
+
+</style>
+</head>
+
+<body>
+<header>
+
+<a href="index.html"><img src="logo.png" alt="The Vegan Diner Logo" id="logo"></a>
+
+<ul>
+  <li><a href="about.html">About</a></li>
+  <li><a href="services.html">Services</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+
+</header>
+
+
+<div class="heading">
+<h2>Contact Us</h2>
+
+<p>Submit the form below to send us a catering request for your next event.</p>
+</div>
+
+
+<form style="background-color: #F6F7EB;">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email"><br>
+
+  <label for="date">Event Date:</label>
+  <input type="date" id="event_date" name="event_date">
+
+  <label for="appt">Event Time:</label>
+  <input type="time" id="appt" name="appt"><br><br>
+
+  <label for="Event Information">Event Details:</label><br>
+  <input name="name" placeholder="More information about your catering needs" style="width:400px; height:100px;">
+
+  <br><br>
+  <input type="reset" value="Submit" class ="button">
+  
+</form>
+
+
+<footer>
+<h5>&copy Beyond Fresh Catering. Vegan Catering Service Somerville, Massachusetts</h5>
+<h5>info@beyondfreshcatering.com</h5>
+<h5>617.123.4567</h5>
+</footer>
+
+</body>
+</html>
