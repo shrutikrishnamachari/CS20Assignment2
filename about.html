@@ -4,44 +4,9 @@
 <title>The Vegan Diner</title>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous"> 
+<link rel="stylesheet" href="mystyle.css"> 
 
 <style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #202020;
-  font-family: Righteous, sans-serif;
-  Font-size: 20px;
-}
-
-li {
-  float: right;
-}
-
-li a {
-  display: block;
-  color: #D7816A;
-  text-align: center;
-  padding: 16px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #942121;
-}
-
-body {
-  background-color:#202020;
-}
-
-
-#logo {
-  width: 200px;
-  Float: left;
-}
-
 .banner {
   background-image: url('kitchen.jpg'); 
 
@@ -69,14 +34,19 @@ P {
   Font-size: 20px;
 }
 
-Footer {
-  Padding-top: 5%;
-  vertical-align: center;
-  text-align: center;
-  color: #D7816A;
-  font-family: Tahoma, sans-serif;
-  line-height: .2;
-  Font-size: 12px;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 530px) {
+  ul {
+  Font-size: 15px;
+}
+#logo {
+  Width: 140px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
 }
 
 </style>
@@ -110,7 +80,7 @@ We can’t wait to help plan your special day or event with you!
 
 
 <footer>
-<h5>&copy Beyond Fresh Catering. Vegan Catering Service Somerville, Massachusetts</h5>
+<h5>&copy Beyond Fresh Catering. Somerville, Massachusetts</h5>
 <h5>info@beyondfreshcatering.com</h5>
 <h5>617.123.4567</h5>
 </footer>

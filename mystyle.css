@@ -1,0 +1,45 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #202020;
+  font-family: Righteous, sans-serif;
+  Font-size: 20px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #D7816A;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #942121;
+}
+
+body {
+  background-color:#202020;
+}
+
+
+#logo {
+  width: 200px;
+  Float: left;
+}
+
+Footer {
+  Padding-top: 5%;
+  vertical-align: center;
+  text-align: center;
+  color: #D7816A;
+  font-family: Tahoma, sans-serif;
+  line-height: .2;
+  Font-size: 12px;
+}
